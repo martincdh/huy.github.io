@@ -1,0 +1,144 @@
+html{
+	text-font: sanserif;
+	width: 100%;
+	height: 100%;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	background-color: darkseagreen;
+	border-radius: 20px;
+	padding: 10px;
+	cursor: pointer;
+	transition: all 0.5s ease in;
+}
+
+li:hover{
+	background-color: hotpink;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.container2{
+	display: flex;
+	background-color: darkgray;
+}
+
+img{
+	cursor: pointer;
+
+}
+
+.icon{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+}
+
+
+
+/*color for navigate*/
+a{color: pink;}
+
+a:visited{color: grey;}
+a:hover{color: brown;}
+a:active{color:white;}
+
+
+
+/*heading*/
+h2 {text-align: center;
+}
+
+/*Form*/
+.formstyle{
+    
+    margin: auto;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    width: 100%;
+    height: 390px;
+    text-align: left;
+}
+
+/*remove the white border around the fieldset*/
+fieldset{border: none;}
+
+/*adjust the form*/
+form{margin: 0 auto;
+max-width: 500px;
+ min-width: 300px;
+width: 60vw;
+height: 500;
+
+}
+
+
+/*input + textarea*/
+
+/*remove the box to under the text*/
+input, textarea{
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+
+/* set background color for the box*/
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color:#ffffff;
+  min-height: 2em;
+
+}
+
+/*adjust the display, smaller the box, adjust the submit to center*/
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  min-width: 300px;
+  margin: auto 1em;
+  height: 2em;
+  font-size: 1.2rem;
+  background-color: #3b3b4f; /*color of button*/
+  border-color: white; /*color of button's border*/
+  margin-top: 1em;
+  cursor: pointer;
+
+}
+
+
+
+/*heading form*/
+
+h5{margin: 1em auto;
+text-align: center;}
+
+
+
+/*modify how the label displaying and their margin left/right = 0.5, bottom/top = 0*/
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+
+
+
+
+
+/*footer*/
+footer a{
+    display: inline-block;
+    padding: 0 50px;
+    
+}
+
+.foot {display: flex;
+    justify-content: center;
+}
+
+
